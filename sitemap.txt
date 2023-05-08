@@ -1,3 +1,4 @@
+http://example.com/2023/05/08/playwright1/
 http://example.com/categories/index.html
 http://example.com/2023/05/07/chatgpt/
 http://example.com/link/index.html
@@ -16,4 +17,7 @@ http://example.com/tags/index.html
 http://example.com/2023/05/05/hello-world/
 http://example.com/
 http://example.com/tags/ChatGPT/
+http://example.com/tags/playwrght/
+http://example.com/tags/UI%E8%87%AA%E5%8A%A8%E5%8C%96/
 http://example.com/categories/AIGC/
+http://example.com/categories/%E6%8A%80%E6%9C%AF/

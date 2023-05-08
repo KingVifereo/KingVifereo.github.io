@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-05-08T03:54:17.242Z</updated>
+  <updated>2023-05-08T04:31:15.286Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>playwright1</title>
+    <link href="http://example.com/2023/05/08/playwright1/"/>
+    <id>http://example.com/2023/05/08/playwright1/</id>
+    <published>2023-05-08T04:29:37.000Z</published>
+    <updated>2023-05-08T04:31:15.286Z</updated>
+    
+    
+    
+    
+    <category term="技术" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="playwrght" scheme="http://example.com/tags/playwrght/"/>
+    
+    <category term="UI自动化" scheme="http://example.com/tags/UI%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    
+  </entry>
   
   <entry>
     <title>ChatGPT 中文调教指南</title>
