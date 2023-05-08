@@ -16,3 +16,4 @@ http://example.com/tags/index.html
 http://example.com/2023/05/05/hello-world/
 http://example.com/
 http://example.com/tags/ChatGPT/
+http://example.com/categories/AIGC/
