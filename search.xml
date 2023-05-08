@@ -69,4 +69,171 @@
     
   
   
+    
+    
+    <entry>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>便携小空调 - 为你的夏日带去清凉!</title>
+      <link href="/air-conditioner/index.html"/>
+      <url>/air-conditioner/index.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>终于为博客安装上了便携小空调</p></blockquote><style>.copyright-box a {  border-bottom: none !important;  padding: 0 !important;}</style><div id="air-conditioner-vue"></div><script defer data-pjax src='https://npm.elemecdn.com/anzhiyu-air-conditioner@1.0.1/index.3f125bc6.js'></script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>相册集</title>
+      <link href="/album/index.html"/>
+      <url>/album/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[<style>  #libCategories .card-wrap:hover .card-info:after {    width: 300%;  }</style><link rel="stylesheet" type="text/css" href="https://npm.elemecdn.com/js-heo@1.0.11/3dCard/no3d.css"><div id='libCategories'><div id="lib-cards" class="container"><a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/技术/")'><card data-image="https://cdn.loveloveme.cn/2023/05/08/645873978f1b0.png"><h1 slot="header">技术</h1><p slot="content">测试开发进阶之路。</p></card></a><a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/AIGC/")'>  <card data-image="https://cdn.loveloveme.cn/2023/05/08/645873bad5a20.png">    <h1 slot="header">AIGC</h1>    <p slot="content">这些年人工智能那些事儿。</p>  </card></a><a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/学习笔记/")'>  <card data-image="https://cdn.loveloveme.cn/2023/05/08/645873cd07111.png">    <h1 slot="header">学习笔记</h1>    <p slot="content">大学之道，在明明德，在亲民，在止于至善。</p>  </card></a></div></div><script src='https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/vue/2.6.14/vue.min.js' data-pjax></script><script type="text/javascript" src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.7/no3d/no3d.js" data-pjax></script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
+      
+        <content type="html"><![CDATA[/*个人信息按钮圆角*/#card-info-btn {    border-radius: 7px;    overflow: hidden;  }/*版权卡片*/#post .post-copyright {    position: relative;    margin: 2rem 0 0.5rem;    padding: 1.5rem 0.8rem;    border: 8px solid var(--HiPeach-copyright-border); /*卡片边框*/    border-radius: 20px; /*边框圆角*/    }    #post .post-copyright:before {    position: absolute;    top: -1.9rem; /*C位置*/    color: #49b1f540; /*C颜色*/    font-size: 6rem; /*C大小*/    }/*图片圆角*/#article-container img {    border-radius: 15px;  }/*首页文章圆角*/.layout > .recent-posts > .recent-post-item {    border-radius: 20px !important}/*文章卡片圆角*/.layout > div:first-child:not(.recent-posts) {    border-radius: 35px;  }/*页码按钮美化*/.layout>.recent-posts .pagination> {    display: inline-block;    margin: 0 6px;    width: 2.5em;    height: 2.5em;    line-height: 2.5em;  }    /*页码按钮圆角*/  #pagination .page-number.current {      border-radius: 7px;  }/* 头图透明 */#page-header{    background: transparent!important;  }    /*头图黑色透明玻璃效果移除 */  #page-header.post-bg:before {    background-color: transparent!important;  }    /*伪类遮罩层透明*/  #page-header::before{    background: transparent!important;  }/* 代码块文字居中 */#article-container figure.highlight .highlight-tools .code-lang {    left: 50%!important;    transform: translateX(-50%);  }/*选中文字颜色*/*::selection {    background: rgba(90,135,255);    color: #ffffff;  }/*个人信息美化*/#aside-content>.card-widget.card-info {    background: #fff url(/media/info.webp) top 18% center no-repeat;    position: relative;  }  #aside-content .card-info .site-data {    display: none;  }  #aside-content .card-info .author-info__name {    font-weight: 700;    color: black;  }  #aside-content .card-info .author-info__description {    font-weight: 600;    color: black;  }  .site-data > a .headline {    color: rgb(0 0 0 / 100%);  }/* 滚动条 */::-webkit-scrollbar {    width: 10px;    height: 10px;  }    ::-webkit-scrollbar-thumb {    background-color: #6f42c1;    background-image: -webkit-linear-gradient( 45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);    border-radius: 2em;  }    ::-webkit-scrollbar-corner {    background-color: transparent;  }    ::-webkit-scrollbar-track {    background-image: url(/media/scrollbar.webp);  }/* 文章页H1-H6图标样式效果 */h1::before,h2::before,h3::before,h4::before,h5::before,h6::before {  -webkit-animation: ccc 1.6s linear infinite;  animation: ccc 1.6s linear infinite;}@-webkit-keyframes ccc {  0% {    -webkit-transform: rotate(0deg);    transform: rotate(0deg);  }  to {    -webkit-transform: rotate(-1turn);    transform: rotate(-1turn);  }}@keyframes ccc {  0% {    -webkit-transform: rotate(0deg);    transform: rotate(0deg);  }  to {    -webkit-transform: rotate(-1turn);    transform: rotate(-1turn);  }}#content-inner.layout h1::before {    color: #ef50a8;    margin-left: -1.55rem;    font-size: 1.3rem;    margin-top: -0.23rem;  }  #content-inner.layout h2::before {    color: #fb7061;    margin-left: -1.35rem;    font-size: 1.1rem;    margin-top: -0.12rem;  }  #content-inner.layout h3::before {    color: #ffbf00;    margin-left: -1.22rem;    font-size: 0.95rem;    margin-top: -0.09rem;  }  #content-inner.layout h4::before {    color: #a9e000;    margin-left: -1.05rem;    font-size: 0.8rem;    margin-top: -0.09rem;  }  #content-inner.layout h5::before {    color: #57c850;    margin-left: -0.9rem;    font-size: 0.7rem;    margin-top: 0rem;  }  #content-inner.layout h6::before {    color: #5ec1e0;    margin-left: -0.9rem;    font-size: 0.66rem;    margin-top: 0rem;  }  #content-inner.layout h1:hover, /*本站已删除此行代码*/  #content-inner.layout h2:hover,  #content-inner.layout h3:hover,  #content-inner.layout h4:hover,  #content-inner.layout h5:hover,  #content-inner.layout h6:hover {    color: rgb(90,135,255);  }  #content-inner.layout h1:hover::before,  #content-inner.layout h2:hover::before,  #content-inner.layout h3:hover::before,  #content-inner.layout h4:hover::before,  #content-inner.layout h5:hover::before,  #content-inner.layout h6:hover::before {    color: rgb(90,135,255);    -webkit-animation: ccc 3.2s linear infinite;    animation: ccc 3.2s linear infinite;  }  /* 页面设置icon转动速度调整 */#rightside_config i.fas.fa-cog.fa-spin {    animation: fa-spin 5s linear infinite;  }/* 时间轴生肖icon */svg.icon {  /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */  width: 1em;  height: 1em;  /* width和height定义图标的默认宽度和高度*/  vertical-align: -0.15em;  fill: currentColor;  overflow: hidden;}.icon-zhongbiao::before {  color: #f7c768;}/* bilibli番剧插件 */#article-container .bangumi-tab.bangumi-active {  background: var(--anzhiyu-theme);  color: var(--anzhiyu-ahoverbg);  border-radius: 10px;}a.bangumi-tab:hover {  text-decoration: none !important;}.bangumi-button:hover {  background: var(--anzhiyu-theme) !important;  border-radius: 10px !important;  color: var(--anzhiyu-ahoverbg) !important;}a.bangumi-button.bangumi-nextpage:hover {  text-decoration: none !important;}.bangumi-button {  padding: 5px 10px !important;}a.bangumi-tab {  padding: 5px 10px !important;}svg.icon.faa-tada {  font-size: 1.1em;}.bangumi-info-item {  border-right: 1px solid #f2b94b;}.bangumi-info-item span {  color: #f2b94b;}.bangumi-info-item em {  color: #f2b94b;}/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */#page-header:not(.not-top-img):before {  background-color: transparent !important;}/* 首页文章卡片 */#recent-posts > .recent-post-item {  background: rgba(255, 255, 255, 0.9);}/* 首页侧栏卡片 */#aside-content .card-widget {  background: rgba(255, 255, 255, 0.9);}/* 文章页面正文背景 */div#post {  background: rgba(255, 255, 255, 0.9);}/* 分页页面 */div#page {  background: rgba(255, 255, 255, 0.9);}/* 归档页面 */div#archive {  background: rgba(255, 255, 255, 0.9);}/* 标签页面 */div#tag {  background: rgba(255, 255, 255, 0.9);}/* 分类页面 */div#category {  background: rgba(255, 255, 255, 0.9);}/*夜间模式伪类遮罩层透明*/[data-theme="dark"] #recent-posts > .recent-post-item {  background: #121212;}[data-theme="dark"] .card-widget {  background: #121212 !important;}[data-theme="dark"] div#post {  background: #121212 !important;}[data-theme="dark"] div#tag {  background: #121212 !important;}[data-theme="dark"] div#archive {  background: #121212 !important;}[data-theme="dark"] div#page {  background: #121212 !important;}[data-theme="dark"] div#category {  background: #121212 !important;}[data-theme="dark"] div#category {  background: transparent !important;}/* 页脚透明 */#footer {  background: transparent !important;}/* 头图透明 */#page-header {  background: transparent !important;}#rightside > div > button {  border-radius: 5px;}/* 滚动条 */::-webkit-scrollbar {  width: 10px;  height: 10px;}::-webkit-scrollbar-thumb {  background-color: #3b70fc;  border-radius: 2em;}::-webkit-scrollbar-corner {  background-color: transparent;}::-moz-selection {  color: #fff;  background-color: #3b70fc;}/* md网站下划线 */#article-container a:hover {  text-decoration: none !important;}#article-container #hpp_talk p img {  display: inline;}/* 404页面 */#error-wrap {  position: absolute;  top: 40%;  right: 0;  left: 0;  margin: 0 auto;  padding: 0 1rem;  max-width: 1000px;  transform: translate(0, -50%);}#error-wrap .error-content {  display: flex;  flex-direction: row;  justify-content: center;  align-items: center;  margin: 0 1rem;  height: 18rem;  border-radius: 8px;  background: var(--card-bg);  box-shadow: var(--card-box-shadow);  transition: all 0.3s;}#error-wrap .error-content .error-img {  box-flex: 1;  flex: 1;  height: 100%;  border-top-left-radius: 8px;  border-bottom-left-radius: 8px;  background-color: #3b70fc;  background-position: center;  background-size: cover;}#error-wrap .error-content .error-info {  box-flex: 1;  flex: 1;  padding: 0.5rem;  text-align: center;  font-size: 14px;  font-family: Titillium Web, "PingFang SC", "Hiragino Sans GB", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;}#error-wrap .error-content .error-info .error_title {  margin-top: -4rem;  font-size: 9em;}#error-wrap .error-content .error-info .error_subtitle {  margin-top: -3.5rem;  word-break: break-word;  font-size: 1.6em;}#error-wrap .error-content .error-info a {  display: inline-block;  margin-top: 0.5rem;  padding: 0.3rem 1.5rem;  background: var(--btn-bg);  color: var(--btn-color);}#body-wrap.error .aside-list {  display: flex;  flex-direction: row;  flex-wrap: nowrap;  bottom: 0px;  position: absolute;  padding: 1rem;  width: 100%;  overflow: scroll;}#body-wrap.error .aside-list .aside-list-group {  display: flex;  flex-direction: row;  flex-wrap: nowrap;  max-width: 1200px;  margin: 0 auto;}#body-wrap.error .aside-list .aside-list-item {  padding: 0.5rem;}#body-wrap.error .aside-list .aside-list-item img {  width: 100%;  object-fit: cover;  border-radius: 12px;}#body-wrap.error .aside-list .aside-list-item .thumbnail {  overflow: hidden;  width: 230px;  height: 143px;  background: var(--anzhiyu-card-bg);  display: flex;}#body-wrap.error .aside-list .aside-list-item .content .title {  -webkit-line-clamp: 2;  overflow: hidden;  display: -webkit-box;  -webkit-box-orient: vertical;  line-height: 1.5;  justify-content: center;  align-items: flex-end;  align-content: center;  padding-top: 0.5rem;  color: white;}#body-wrap.error .aside-list .aside-list-item .content time {  display: none;}/* 代码框主题 */#article-container figure.highlight {  border-radius: 10px;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>日常生活</title>
+      <link href="/dailyPhoto/index.html"/>
+      <url>/dailyPhoto/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>闲言碎语</title>
+      <link href="/essay/index.html"/>
+      <url>/essay/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>朋友圈</title>
+      <link href="/fcircle/index.html"/>
+      <url>/fcircle/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/json/album.json"/>
+      <url>/json/album.json</url>
+      
+        <content type="html"><![CDATA[[{"url":"https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/IMG_0556.jpg","alt":"IMG_0556.jpg","title":"这是title"},{"url":"https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/IMG_0472.jpg","alt":"IMG_0472.jpg"},{"url":"https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/IMG_0453.jpg","alt":""},{"url":"https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/IMG_0931.jpg","alt":""}]]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/json/music.json"/>
+      <url>/json/music.json</url>
+      
+        <content type="html"><![CDATA[[{"name":"青花瓷","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.4/青花瓷/青花瓷.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000002eFUFm2XYZ7z_2.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.4/青花瓷/青花瓷.lrc"},{"name":"稻香","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.1/周杰伦/稻香/稻香.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000002Neh8l0uciQZ_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.1/周杰伦/稻香/稻香.lrc"},{"name":"晴天","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/晴天/晴天.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000000MkMni19ClKG_3.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/晴天/晴天.lrc"},{"name":"七里香","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/七里香/七里香.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000003DFRzD192KKD_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/七里香/七里香.lrc"},{"name":"花海","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music-jay@1.0.1/花海/花海.flac","cover":"https://y.qq.com/music/photo_new/T002R300x300M000002Neh8l0uciQZ_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music-jay@1.0.1/花海/花海.lrc"},{"name":"反方向的钟","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music-jay@1.0.1/反方向的钟/反方向的钟.flac","cover":"https://y.qq.com/music/photo_new/T002R300x300M000000f01724fd7TH_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music-jay@1.0.1/反方向的钟/反方向的钟.lrc"},{"name":"兰亭序","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.1/周杰伦/兰亭序/兰亭序.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000002Neh8l0uciQZ_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.1/周杰伦/兰亭序/兰亭序.lrc"},{"name":"说好的辛福呢","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/说好的辛福呢/说好的辛福呢.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000002Neh8l0uciQZ_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/说好的辛福呢/说好的幸福呢.lrc"},{"name":"等你下课 (with 杨瑞代)","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.1/周杰伦/等你下课/等你下课.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000003bSL0v4bpKAx_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.1/周杰伦/等你下课/等你下课.lrc"},{"name":"我落泪情绪零碎","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/我落泪情绪零碎/我落泪情绪零碎.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000000bviBl4FjTpO_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/我落泪情绪零碎/我落泪情绪零碎.lrc"},{"name":"听妈妈的话","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/听妈妈的话/听妈妈的话.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000002jLGWe16Tf1H_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/听妈妈的话/听妈妈的话.lrc"},{"name":"明明就","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music-jay@1.0.1/明明就/明明就.flac","cover":"https://y.qq.com/music/photo_new/T002R300x300M000003Ow85E3pnoqi_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music-jay@1.0.1/明明就/明明就.lrc"},{"name":"我是如此相信","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music-jay@1.0.1/我是如此相信/我是如此相信.flac","cover":"https://y.qq.com/music/photo_new/T002R300x300M000001hGx1Z0so1YX_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music-jay@1.0.1/我是如此相信/我是如此相信.lrc"},{"name":"发如雪","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.3/发如雪/发如雪.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M0000024bjiL2aocxT_3.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.3/发如雪/发如雪.lrc"},{"name":"以父之名","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.3/以父之名/以父之名.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000000MkMni19ClKG_3.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.3/以父之名/以父之名.lrc"},{"name":"园游会","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.3/园游会/园游会.flac","cover":"https://y.qq.com/music/photo_new/T002R300x300M000003DFRzD192KKD_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.3/园游会/园游会.lrc"},{"name":"本草纲目","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.4/本草纲目/本草纲目.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000002jLGWe16Tf1H_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.4/本草纲目/本草纲目.lrc"},{"name":"龙卷风","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.4/龙卷风/龙卷风.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000000f01724fd7TH_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.4/龙卷风/龙卷风.lrc"}]]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐馆</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>微信二维码</title>
+      <link href="/wechatqc/index.html"/>
+      <url>/wechatqc/index.html</url>
+      
+        <content type="html"><![CDATA[<style type="text/css">  body {  background: #f6f7f8;  margin: 0;  padding: 0;  }  .wechatOA {    position: relative;    display: flex;    /* flex-direction: column; */    justify-content: space-between;    align-items: center;    height: var(--vh);  }  .wechat-card {    background: #fff;    max-width: 428px;    max-height: 569px;    border-radius: 16px;    padding: 24px 36px 20px 36px;    display: flex;    flex-direction: column;    margin: auto;    align-items: center;  }  .qrcode {    width: 256px;    height: 256px;    display: flex;  }  .tips {    font-size: 14px;    color: #000;    opacity: 0.5;    margin-top: 8px;  }  .wechatOA-card {    width: 100%;    display: flex;    margin-top: 16px;    background: #F7F7F7;    padding: 18px;    border-radius: 16px;    align-items: center;  }  .wechatOA-head {    width: 48px;    height: 48px;    background-image: url(https://cdn.loveloveme.cn/2023/05/06/6455c2919ca1e.jpeg);    border-radius: 68px;    background-size: contain;    margin-right: 16px;  }  .wechatOA-head2 {    width: 48px;    height: 48px;    background-image: url(https://cdn.loveloveme.cn/2023/05/06/6455c29287337.jpg);    border-radius: 68px;    background-size: contain;    margin-right: 16px;  }  .wechatOA-name {    font-weight: bold;  }  .wechatOA-description {    font-size: 12px;    color: #000;    opacity: 0.5;  }  a.help {    font-size: 14px;    color: #000;    opacity: 0.5;    text-decoration: none;    margin: 20px 0;  }  a.help:visited {    color: #000;  }</style><script>  // 改进vh  const vh = window.innerHeight * 1;  document.documentElement.style.setProperty('--vh', `${vh}px`);  window.addEventListener('resize', () => {    let vh = window.innerHeight * 1;    document.documentElement.style.setProperty('--vh', `${vh}px`);  });</script><html lang="zh-cn"><head>  <meta charset="UTF-8">  <meta http-equiv="X-UA-Compatible" content="IE=edge">  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>关注「星球研习社」微信公众号</title>  <!-- <link rel="stylesheet" href="./main.css"> -->  <link rel="icon" type="image/x-icon" href="./img/icon.webp">  <link rel="apple-touch-icon" href="./img/icon-r.webp">  <meta name="apple-mobile-web-app-title" content="VIFEREO">  <link rel="bookmark" href="./img/icon.webp">  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="./img/icon-r.webp">  <meta name="description" content="关注星球研习社微信公众号，获取更多最新的设计、科技、开发相关文章。">  <meta name="theme-color" content="#f6f7f8"></head><body>  <div class="wechatOA">    <div class="wechat-card">      <img src="https://cdn.loveloveme.cn/2023/05/06/6455c291c1f53.jpeg" class="qrcode" alt="qrcode">      <div class="tips">扫描二维码关注公众号</div>      <div class="wechatOA-card">        <div class="wechatOA-head"></div>        <div class="wechatOA-info">          <div class="wechatOA-name">星球研习社</div>          <div class="wechatOA-description">分享设计与科技生活</div>        </div>      </div>      <a class="help" href="https://kf.qq.com/touch/wxappfaq/1208117b2mai141113jaqAnU.html?platform=14" title="帮助" target="_blank">不会扫码？</a>    </div>    <!-- <a class="help" href="https://kf.qq.com/touch/wxappfaq/1208117b2mai141113jaqAnU.html?platform=14" title="帮助" target="_blank">不会扫码？</a> -->    <div class="wechat-card">      <img src="https://cdn.loveloveme.cn/2023/05/06/6455c2931525a.jpg" class="qrcode" alt="qrcode">      <div class="tips">扫描二维码关注博主个人</div>      <div class="wechatOA-card">        <div class="wechatOA-head2"></div>        <div class="wechatOA-info">          <div class="wechatOA-name">༄Kⅈꫛᧁ࿐</div>          <div class="wechatOA-description">聊天、咨询或反馈，随时欢迎</div>        </div>      </div>      <a class="help" href="https://kf.qq.com/touch/wxappfaq/1208117b2mai141113jaqAnU.html?platform=14" title="帮助" target="_blank">不会扫码？</a>    </div>  </div>  <!-- <script src="./main.js"></script> --></body></html>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>世界各地风景</title>
+      <link href="/wordScenery/index.html"/>
+      <url>/wordScenery/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+  
 </search>
