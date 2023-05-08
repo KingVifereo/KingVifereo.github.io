@@ -1,8 +1,8 @@
+http://example.com/categories/index.html
 http://example.com/2023/05/07/chatgpt/
 http://example.com/link/index.html
 http://example.com/wechatqc/index.html
 http://example.com/air-conditioner/index.html
-http://example.com/categories/index.html
 http://example.com/json/music.json
 http://example.com/music/index.html
 http://example.com/fcircle/index.html
