@@ -20,4 +20,4 @@ http://example.com/tags/ChatGPT/
 http://example.com/tags/playwrght/
 http://example.com/tags/UI%E8%87%AA%E5%8A%A8%E5%8C%96/
 http://example.com/categories/AIGC/
-http://example.com/categories/%E6%8A%80%E6%9C%AF/
+http://example.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/
