@@ -42,10 +42,6 @@
   #pagination .page-number.current {
       border-radius: 7px;
   }
-/* 头图透明 */
-#page-header{
-    background: transparent!important;
-  }
   
   /*头图黑色透明玻璃效果移除 */
   #page-header.post-bg:before {
@@ -66,44 +62,7 @@
     background: rgba(90,135,255);
     color: #ffffff;
   }
-/*个人信息美化*/
-#aside-content>.card-widget.card-info {
-    background: #fff url(/media/info.webp) top 18% center no-repeat;
-    position: relative;
-  }
-  #aside-content .card-info .site-data {
-    display: none;
-  }
-  #aside-content .card-info .author-info__name {
-    font-weight: 700;
-    color: black;
-  }
-  #aside-content .card-info .author-info__description {
-    font-weight: 600;
-    color: black;
-  }
-  .site-data > a .headline {
-    color: rgb(0 0 0 / 100%);
-  }
-/* 滚动条 */
-::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: #6f42c1;
-    background-image: -webkit-linear-gradient( 45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
-    border-radius: 2em;
-  }
-  
-  ::-webkit-scrollbar-corner {
-    background-color: transparent;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background-image: url(/media/scrollbar.webp);
-  }
+
 /* 文章页H1-H6图标样式效果 */
 h1::before,
 h2::before,
@@ -135,60 +94,60 @@ h6::before {
   }
 }
 #content-inner.layout h1::before {
-    color: #ef50a8;
-    margin-left: -1.55rem;
-    font-size: 1.3rem;
-    margin-top: -0.23rem;
-  }
-  #content-inner.layout h2::before {
-    color: #fb7061;
-    margin-left: -1.35rem;
-    font-size: 1.1rem;
-    margin-top: -0.12rem;
-  }
-  #content-inner.layout h3::before {
-    color: #ffbf00;
-    margin-left: -1.22rem;
-    font-size: 0.95rem;
-    margin-top: -0.09rem;
-  }
-  #content-inner.layout h4::before {
-    color: #a9e000;
-    margin-left: -1.05rem;
-    font-size: 0.8rem;
-    margin-top: -0.09rem;
-  }
-  #content-inner.layout h5::before {
-    color: #57c850;
-    margin-left: -0.9rem;
-    font-size: 0.7rem;
-    margin-top: 0rem;
-  }
-  #content-inner.layout h6::before {
-    color: #5ec1e0;
-    margin-left: -0.9rem;
-    font-size: 0.66rem;
-    margin-top: 0rem;
-  }
-  #content-inner.layout h1:hover, /*本站已删除此行代码*/
-  #content-inner.layout h2:hover,
-  #content-inner.layout h3:hover,
-  #content-inner.layout h4:hover,
-  #content-inner.layout h5:hover,
-  #content-inner.layout h6:hover {
-    color: rgb(90,135,255);
-  }
-  #content-inner.layout h1:hover::before,
-  #content-inner.layout h2:hover::before,
-  #content-inner.layout h3:hover::before,
-  #content-inner.layout h4:hover::before,
-  #content-inner.layout h5:hover::before,
-  #content-inner.layout h6:hover::before {
-    color: rgb(90,135,255);
-    -webkit-animation: ccc 3.2s linear infinite;
-    animation: ccc 3.2s linear infinite;
-  }
-  
+  color: #ef50a8;
+  margin-left: -1.55rem;
+  font-size: 1.3rem;
+  margin-top: -0.23rem;
+}
+#content-inner.layout h2::before {
+  color: #fb7061;
+  margin-left: -1.35rem;
+  font-size: 1.1rem;
+  margin-top: -0.12rem;
+}
+#content-inner.layout h3::before {
+  color: #ffbf00;
+  margin-left: -1.22rem;
+  font-size: 0.95rem;
+  margin-top: -0.09rem;
+}
+#content-inner.layout h4::before {
+  color: #a9e000;
+  margin-left: -1.05rem;
+  font-size: 0.8rem;
+  margin-top: -0.09rem;
+}
+#content-inner.layout h5::before {
+  color: #57c850;
+  margin-left: -0.9rem;
+  font-size: 0.7rem;
+  margin-top: 0rem;
+}
+#content-inner.layout h6::before {
+  color: #5ec1e0;
+  margin-left: -0.9rem;
+  font-size: 0.66rem;
+  margin-top: 0rem;
+}
+#content-inner.layout h1:hover,
+#content-inner.layout h2:hover,
+#content-inner.layout h3:hover,
+#content-inner.layout h4:hover,
+#content-inner.layout h5:hover,
+#content-inner.layout h6:hover {
+  color: #3b70fc;
+}
+#content-inner.layout h1:hover::before,
+#content-inner.layout h2:hover::before,
+#content-inner.layout h3:hover::before,
+#content-inner.layout h4:hover::before,
+#content-inner.layout h5:hover::before,
+#content-inner.layout h6:hover::before {
+  color: #3b70fc;
+  -webkit-animation: ccc 3.2s linear infinite;
+  animation: ccc 3.2s linear infinite;
+}
+
 /* 页面设置icon转动速度调整 */
 #rightside_config i.fas.fa-cog.fa-spin {
     animation: fa-spin 5s linear infinite;
