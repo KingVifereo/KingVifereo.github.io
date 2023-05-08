@@ -1,5 +1,5 @@
-http://vifereo.eu.org/2023/05/05/hello-world/
 http://vifereo.eu.org/2023/05/08/playwright1/
+http://vifereo.eu.org/2023/05/05/hello-world/
 http://vifereo.eu.org/2023/05/07/chatgpt/
 http://vifereo.eu.org/categories/index.html
 http://vifereo.eu.org/link/index.html
@@ -17,7 +17,7 @@ http://vifereo.eu.org/essay/index.html
 http://vifereo.eu.org/tags/index.html
 http://vifereo.eu.org/
 http://vifereo.eu.org/tags/ChatGPT/
-http://vifereo.eu.org/tags/playwrght/
+http://vifereo.eu.org/tags/playwright/
 http://vifereo.eu.org/tags/UI%E8%87%AA%E5%8A%A8%E5%8C%96/
 http://vifereo.eu.org/categories/AIGC/
 http://vifereo.eu.org/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/
