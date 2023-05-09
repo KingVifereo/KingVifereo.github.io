@@ -1,67 +1,15 @@
-/*个人信息按钮圆角*/
-#card-info-btn {
-    border-radius: 7px;
-    overflow: hidden;
-  }
-/*版权卡片*/
-#post .post-copyright {
-    position: relative;
-    margin: 2rem 0 0.5rem;
-    padding: 1.5rem 0.8rem;
-    border: 8px solid var(--HiPeach-copyright-border); /*卡片边框*/
-    border-radius: 20px; /*边框圆角*/
-    }
-    #post .post-copyright:before {
-    position: absolute;
-    top: -1.9rem; /*C位置*/
-    color: #49b1f540; /*C颜色*/
-    font-size: 6rem; /*C大小*/
-    }
-/*图片圆角*/
-#article-container img {
-    border-radius: 15px;
-  }
-/*首页文章圆角*/
-.layout > .recent-posts > .recent-post-item {
-    border-radius: 20px !important
-}
-/*文章卡片圆角*/
-.layout > div:first-child:not(.recent-posts) {
-    border-radius: 35px;
-  }
-/*页码按钮美化*/
-.layout>.recent-posts .pagination> {
-    display: inline-block;
-    margin: 0 6px;
-    width: 2.5em;
-    height: 2.5em;
-    line-height: 2.5em;
-  }
-  
-  /*页码按钮圆角*/
-  #pagination .page-number.current {
-      border-radius: 7px;
-  }
-  
-  /*头图黑色透明玻璃效果移除 */
-  #page-header.post-bg:before {
-    background-color: transparent!important;
-  }
-  
-  /*伪类遮罩层透明*/
-  #page-header::before{
-    background: transparent!important;
-  }
 /* 代码块文字居中 */
 #article-container figure.highlight .highlight-tools .code-lang {
     left: 50%!important;
     transform: translateX(-50%);
   }
+
 /*选中文字颜色*/
 *::selection {
     background: rgba(90,135,255);
     color: #ffffff;
   }
+
 
 /* 文章页H1-H6图标样式效果 */
 h1::before,
@@ -153,6 +101,7 @@ h6::before {
     animation: fa-spin 5s linear infinite;
   }
 
+
 /* 时间轴生肖icon */
 svg.icon {
   /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */
@@ -205,94 +154,13 @@ svg.icon.faa-tada {
   color: #f2b94b;
 }
 
-/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
-#page-header:not(.not-top-img):before {
-  background-color: transparent !important;
-}
 
-/* 首页文章卡片 */
-#recent-posts > .recent-post-item {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/* 首页侧栏卡片 */
-#aside-content .card-widget {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/* 文章页面正文背景 */
-div#post {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/* 分页页面 */
-div#page {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/* 归档页面 */
-div#archive {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/* 标签页面 */
-div#tag {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/* 分类页面 */
-div#category {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/*夜间模式伪类遮罩层透明*/
-[data-theme="dark"] #recent-posts > .recent-post-item {
-  background: #121212;
-}
-
-[data-theme="dark"] .card-widget {
-  background: #121212 !important;
-}
-
-[data-theme="dark"] div#post {
-  background: #121212 !important;
-}
-
-[data-theme="dark"] div#tag {
-  background: #121212 !important;
-}
-
-[data-theme="dark"] div#archive {
-  background: #121212 !important;
-}
-
-[data-theme="dark"] div#page {
-  background: #121212 !important;
-}
-
-[data-theme="dark"] div#category {
-  background: #121212 !important;
-}
-
-[data-theme="dark"] div#category {
-  background: transparent !important;
-}
 /* 页脚透明 */
 #footer {
   background: transparent !important;
 }
 
-/* 头图透明 */
-#page-header {
-  background: transparent !important;
-}
-
-#rightside > div > button {
-  border-radius: 5px;
-}
-
 /* 滚动条 */
-
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
