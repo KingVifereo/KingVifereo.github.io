@@ -1,3 +1,4 @@
+http://vifereo.eu.org/2023/05/10/kexueshangwang/
 http://vifereo.eu.org/2023/05/09/playwright2/
 http://vifereo.eu.org/2023/05/05/hello-world/
 http://vifereo.eu.org/2023/05/08/playwright1/
@@ -18,6 +19,7 @@ http://vifereo.eu.org/essay/index.html
 http://vifereo.eu.org/tags/index.html
 http://vifereo.eu.org/
 http://vifereo.eu.org/tags/ChatGPT/
+http://vifereo.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/
 http://vifereo.eu.org/tags/playwright/
 http://vifereo.eu.org/tags/UI%E8%87%AA%E5%8A%A8%E5%8C%96/
 http://vifereo.eu.org/categories/AIGC/

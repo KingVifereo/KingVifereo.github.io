@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://vifereo.eu.org/2023/05/10/kexueshangwang/</loc>
+    
+    <lastmod>2023-05-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://vifereo.eu.org/2023/05/09/playwright2/</loc>
     
     <lastmod>2023-05-09</lastmod>
@@ -166,7 +175,7 @@
 
   <url>
     <loc>http://vifereo.eu.org/</loc>
-    <lastmod>2023-05-09</lastmod>
+    <lastmod>2023-05-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -174,21 +183,28 @@
   
   <url>
     <loc>http://vifereo.eu.org/tags/ChatGPT/</loc>
-    <lastmod>2023-05-09</lastmod>
+    <lastmod>2023-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://vifereo.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
+    <lastmod>2023-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://vifereo.eu.org/tags/playwright/</loc>
-    <lastmod>2023-05-09</lastmod>
+    <lastmod>2023-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://vifereo.eu.org/tags/UI%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
-    <lastmod>2023-05-09</lastmod>
+    <lastmod>2023-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -197,14 +213,14 @@
   
   <url>
     <loc>http://vifereo.eu.org/categories/AIGC/</loc>
-    <lastmod>2023-05-09</lastmod>
+    <lastmod>2023-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://vifereo.eu.org/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2023-05-09</lastmod>
+    <lastmod>2023-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
