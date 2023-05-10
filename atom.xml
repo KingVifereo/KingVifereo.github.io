@@ -6,7 +6,7 @@
   <link href="http://vifereo.eu.org/atom.xml" rel="self"/>
   
   <link href="http://vifereo.eu.org/"/>
-  <updated>2023-05-10T13:58:57.231Z</updated>
+  <updated>2023-05-10T14:44:40.570Z</updated>
   <id>http://vifereo.eu.org/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PlayWright学习笔记（三)</title>
+    <link href="http://vifereo.eu.org/2023/05/10/playwright3/"/>
+    <id>http://vifereo.eu.org/2023/05/10/playwright3/</id>
+    <published>2023-05-10T14:01:18.000Z</published>
+    <updated>2023-05-10T14:44:40.570Z</updated>
+    
+    <content type="html"><![CDATA[<p>上期咱们分享了<strong>Playwright</strong>的概念以及原理，理解了它们之后从本篇文章开始我们将深入探讨<strong>Playwright</strong>的基础以及高阶玩法。本期先带大家学习和搭建<strong>Playwright</strong>的环境与配置安装。<br>那我们开始咯(<em>^▽^</em>)</p><blockquote><p><font color="red"><a href="https://playwright.dev/docs/intro">【官方文档 Node版本】</a></font><br><font color="red"><a href="https://playwright.dev/python/docs/intro">【官方文档 Python版本】</a></font></p></blockquote><h1 id="👑一、安装Playwright"><a href="#👑一、安装Playwright" class="headerlink" title="👑一、安装Playwright"></a>👑一、安装Playwright</h1><p>由于<strong>Playwright</strong>的特性，它支持在Windows、Mac以及Linux系统上安装和使用。</p><p>我们可以通过以下方式安装Playwright:</p><ol><li><p>使用npm安装(适用于Node.js项目)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm i -D @playwright/test</span><br><span class="line"><span class="comment"># 安装支持的浏览器引擎</span></span><br><span class="line">npx playwright install</span><br></pre></td></tr></table></figure></li><li><p>使用yarn安装(适用于Node.js项目)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn create playwright</span><br></pre></td></tr></table></figure></li><li><p>使用pnpm安装(适用于Node.js项目)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pnpm dlx create-playwright</span><br></pre></td></tr></table></figure></li><li><p>使用PIP安装(适用于Python项目)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">pip install playwright</span><br><span class="line">pip install pytest-playwright</span><br><span class="line"><span class="comment"># 安装支持的浏览器引擎</span></span><br><span class="line">playwright install chromium</span><br><span class="line"><span class="comment"># 或：</span></span><br><span class="line">python3 -m playwright install chromium</span><br></pre></td></tr></table></figure></li><li><p>Docker安装<br>如果你熟悉Docker,也可以使用<strong>Playwright</strong>提供的Docker镜像安装:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -it -v /dev/shm:/dev/shm mcr.microsoft.com/playwright:v1.5.2</span><br></pre></td></tr></table></figure></li></ol><h1 id="🍇二、安装Playwright浏览器引擎"><a href="#🍇二、安装Playwright浏览器引擎" class="headerlink" title="🍇二、安装Playwright浏览器引擎"></a>🍇二、安装Playwright浏览器引擎</h1><p>需要安装Chromium、Firefox和&#x2F;或WebKit浏览器来运行测试。我们可以:</p><ol><li><strong>自动安装</strong>:这是最简单的方式,在使用<strong>Playwright</strong>时,它会自动下载对应浏览器。<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Node版本：</span></span><br><span class="line">npx playwright install</span><br><span class="line"></span><br><span class="line"><span class="comment"># Python版本：</span></span><br><span class="line">playwright install</span><br></pre></td></tr></table></figure></li><li><strong>手动安装</strong>:我们可以手动下载并安装浏览器,然后指定浏览器位置。<br>但<strong>Playwright</strong>对浏览器版本有要求,系统浏览器版本需要在支持范围内。以手动安装Chromium为例,我们可以:<blockquote><ol><li>下载<strong>Playwright</strong>支持版本的Chromium:<a href="https://playwright.chromium.org/">https://playwright.chromium.org/</a></li><li>解压到一个文件夹,如:&#x2F;Users&#x2F;username&#x2F;chromium</li><li>设置环境变量<br>Mac&#x2F;Linux:</li></ol></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> CHROMIUM_EXECUTABLE_PATH=/Users/username/chromium/chrome</span><br></pre></td></tr></table></figure>Windows:<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> CHROMIUM_EXECUTABLE_PATH=C:\Users\username\chromium\chrome.exe</span><br></pre></td></tr></table></figure></li><li><strong>使用系统默认浏览器</strong>:我们可以让<strong>Playwright</strong>使用系统默认安装的浏览器。</li><li>在<strong>Playwright</strong>脚本中通过环境变量使用Chromium:<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> playwright.sync_api <span class="keyword">import</span> sync_playwright</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">playwright</span>):</span><br><span class="line">    chromium = playwright.chromium</span><br><span class="line">    browser = chromium.launch() <span class="comment"># 使用环境变量指定的Chromium</span></span><br><span class="line">    <span class="comment"># ...</span></span><br></pre></td></tr></table></figure></li></ol><p><strong>配置环境变量(可选):</strong><br>我们可以为<strong>Playwright</strong>相关工具配置环境变量,方便使用:</p><blockquote><p>• PLAYWRIGHT_BROWSERS_PATH:浏览器路径,用于Playwright调用浏览器<br>• PLAYWRIGHT_TEST_REGEX:测试文件匹配正则,用于pytest-playwright插件<br>• PLAYWRIGHT_DEBUG:打开Playwright调试日志<br>• PLAYWRIGHT_HEADLESS:以无头模式启动浏览器</p></blockquote><blockquote><p>🔞至此我们已经了解<strong>Playwright</strong>的各种安装方式和浏览器安装配置,以及可选的环境变量设置。在下一章,我们将学习如何编写第一个<strong>Playwright</strong>测试脚本! </p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;上期咱们分享了&lt;strong&gt;Playwright&lt;/strong&gt;的概念以及原理，理解了它们之后从本篇文章开始我们将深入探讨&lt;strong&gt;Playwright&lt;/strong&gt;的基础以及高阶玩法。本期先带大家学习和搭建&lt;strong&gt;Playwright&lt;/strong</summary>
+      
+    
+    
+    
+    <category term="学习笔记" scheme="http://vifereo.eu.org/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="playwright" scheme="http://vifereo.eu.org/tags/playwright/"/>
+    
+    <category term="UI自动化" scheme="http://vifereo.eu.org/tags/UI%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    
+  </entry>
   
   <entry>
     <title>VIFEREO教你如何科学上网</title>
