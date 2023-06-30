@@ -1,3 +1,4 @@
+http://vifereo.eu.org/2023/06/30/shell1/
 http://vifereo.eu.org/2023/05/15/FrontPerformance/
 http://vifereo.eu.org/2023/05/09/playwright2/
 http://vifereo.eu.org/2023/05/10/playwright3/
@@ -27,6 +28,7 @@ http://vifereo.eu.org/tags/ChatGPT/
 http://vifereo.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/
 http://vifereo.eu.org/tags/playwright/
 http://vifereo.eu.org/tags/UI%E8%87%AA%E5%8A%A8%E5%8C%96/
+http://vifereo.eu.org/tags/shell/
 http://vifereo.eu.org/categories/%E6%8A%80%E6%9C%AF/
 http://vifereo.eu.org/categories/AIGC/
 http://vifereo.eu.org/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/
