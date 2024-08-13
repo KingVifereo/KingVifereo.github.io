@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://vifereo.eu.org/2023/07/08/chatgpt/</loc>
+    
+    <lastmod>2024-08-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://vifereo.eu.org/2023/05/10/hello-world/</loc>
+    
+    <lastmod>2024-08-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://vifereo.eu.org/2023/05/10/kexueshangwang/</loc>
     
     <lastmod>2024-08-13</lastmod>
@@ -29,15 +47,6 @@
   </url>
   
   <url>
-    <loc>http://vifereo.eu.org/2024/08/13/hello-world/</loc>
-    
-    <lastmod>2024-08-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://vifereo.eu.org/2023/05/15/FrontPerformance/</loc>
     
     <lastmod>2024-08-13</lastmod>
@@ -48,15 +57,6 @@
   
   <url>
     <loc>http://vifereo.eu.org/2023/12/13/kvmvirtual1/</loc>
-    
-    <lastmod>2024-08-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://vifereo.eu.org/2024/08/13/chatgpt/</loc>
     
     <lastmod>2024-08-13</lastmod>
     
