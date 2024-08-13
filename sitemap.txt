@@ -9,8 +9,8 @@ http://vifereo.eu.org/2023/05/08/playwright1/
 http://vifereo.eu.org/2023/05/09/playwright2/
 http://vifereo.eu.org/wechatqc/index.html
 http://vifereo.eu.org/link/index.html
-http://vifereo.eu.org/dailyPhoto/index.html
 http://vifereo.eu.org/air-conditioner/index.html
+http://vifereo.eu.org/dailyPhoto/index.html
 http://vifereo.eu.org/album/index.html
 http://vifereo.eu.org/fcircle/index.html
 http://vifereo.eu.org/tags/index.html
