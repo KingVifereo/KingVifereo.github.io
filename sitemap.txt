@@ -1,3 +1,4 @@
+http://blog.vifereo.eu.org/2024/08/14/buglevel/
 http://blog.vifereo.eu.org/2023/07/08/chatgpt/
 http://blog.vifereo.eu.org/2023/05/10/hello-world/
 http://blog.vifereo.eu.org/2023/05/10/kexueshangwang/
@@ -25,6 +26,7 @@ http://blog.vifereo.eu.org/
 http://blog.vifereo.eu.org/tags/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD/
 http://blog.vifereo.eu.org/tags/%E6%B5%8B%E8%AF%95%E5%BC%80%E5%8F%91/
 http://blog.vifereo.eu.org/tags/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/
+http://blog.vifereo.eu.org/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/
 http://blog.vifereo.eu.org/tags/ChatGPT/
 http://blog.vifereo.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/
 http://blog.vifereo.eu.org/tags/KVM/
@@ -32,5 +34,5 @@ http://blog.vifereo.eu.org/tags/playwright/
 http://blog.vifereo.eu.org/tags/UI%E8%87%AA%E5%8A%A8%E5%8C%96/
 http://blog.vifereo.eu.org/tags/shell/
 http://blog.vifereo.eu.org/categories/%E6%8A%80%E6%9C%AF/
-http://blog.vifereo.eu.org/categories/AIGC/
 http://blog.vifereo.eu.org/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/
+http://blog.vifereo.eu.org/categories/AIGC/
