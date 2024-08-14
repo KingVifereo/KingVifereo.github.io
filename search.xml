@@ -345,7 +345,7 @@ c.avgjson表：生成图表<figure class="highlight python"><table><tr><td class
 <p>• <font color="IndianRed">严重（Major&#x2F;P1级）</font>：这类bug影响系统的部分功能或操作，但不会导致系统崩溃。它们可能使系统不稳定、破坏数据或产生错误结果。这类bug的优先级次之，需要在较短时间内修复。</p>
 <p>• <font color="	Coral">一般（Medium&#x2F;P2级）</font>：这类bug通常涉及次要功能的未实现或与产品需求规格书不符的问题。它们主要影响用户体验或功能不如预期，但不会影响系统的核心功能。这类bug的优先级相对较低，可以在项目进度允许的情况下进行修复或在下一个版本中修复。</p>
 <p>• <font color="green">轻微（Minor&#x2F;P3级）</font>：这类bug主要涉及一些小的界面问题，如错别字、提示信息不准确等。它们对功能使用几乎没有影响，但可能会给用户带来一些不便。这类bug的优先级较低，可以在后续版本中进行改进。</p>
-<p>• <font color="yellow">建议（Suggestion&#x2F;P4级）</font>：这是建议性的改进点，不影响系统功能，可以根据情况考虑是否修复。</p>
+<p>• <font color="blue">建议（Suggestion&#x2F;P4级）</font>：这是建议性的改进点，不影响系统功能，可以根据情况考虑是否修复。</p>
 <blockquote>
 <p>🔞需要注意的是，具体的bug定级分类可能会因不同的项目、团队或公司而有所不同。</p>
 </blockquote>
